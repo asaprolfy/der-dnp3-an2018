@@ -10,18 +10,18 @@ Redistribution and use in source and binary forms, with or without modification,
 #ifndef DER_OUTSTATION_H
 #define DER_OUTSTATION_H
 
-#include <asiodnp3/DNP3Manager.h>
-#include <asiodnp3/PrintingSOEHandler.h>
-#include <asiodnp3/PrintingChannelListener.h>
-#include <asiodnp3/ConsoleLogger.h>
-#include <asiodnp3/UpdateBuilder.h>
+#include <opendnp3/DNP3Manager.h>
+#include <opendnp3/master/PrintingSOEHandler.h>
+#include <opendnp3/channel/PrintingChannelListener.h>
+#include <opendnp3/ConsoleLogger.h>
+#include <opendnp3/outstation/UpdateBuilder.h>
 
-#include <asiopal/UTCTimeSource.h>
+#include <opendnp3/master/IUTCTimeSource.h>
 #include <opendnp3/outstation/SimpleCommandHandler.h>
 
 #include <opendnp3/outstation/IUpdateHandler.h>
 
-#include <opendnp3/LogLevels.h>
+#include <opendnp3/logging/LogLevels.h>
 
 #include <string>
 #include <thread>

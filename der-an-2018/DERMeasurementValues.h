@@ -10,7 +10,7 @@ Redistribution and use in source and binary forms, with or without modification,
 #ifndef DER_MEASUREMENT_VALUES_H
 #define DER_MEASUREMENT_VALUES_H
 
-#include <asiodnp3/DNP3Manager.h>
+#include <opendnp3/DNP3Manager.h>
 
 using namespace std;
 using namespace opendnp3;

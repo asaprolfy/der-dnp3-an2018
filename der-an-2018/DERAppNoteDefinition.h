@@ -10,7 +10,7 @@ Redistribution and use in source and binary forms, with or without modification,
 #ifndef DER_APP_NOTE_DEFINITION_H
 #define DER_APP_NOTE_DEFINITION_H
 
-#include <asiodnp3/DNP3Manager.h>
+#include <opendnp3/DNP3Manager.h>
 /*#include <asiodnp3/PrintingSOEHandler.h>
 #include <asiodnp3/PrintingChannelListener.h>
 #include <asiodnp3/ConsoleLogger.h>

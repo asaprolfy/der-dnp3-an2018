@@ -12,7 +12,7 @@ Redistribution and use in source and binary forms, with or without modification,
 #define DER_COMMANDHANDLER_H
 
 #include <unordered_map>
-#include <asiodnp3/UpdateBuilder.h>
+#include <opendnp3/outstation/UpdateBuilder.h>
 
 #include "DERAppNoteDefinition.h"
 #include "IDERCommandHandlerCallback.h"
